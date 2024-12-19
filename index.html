@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresas Tech</title>
+    <link rel="icon" href="./E.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./E.ico">
+    <author>Vinícius Benetti Costa</author>
+    <description>coomunidade aberta de pequenas e médias empresas</description>
+    <keywords>Empresas tech, empresas de tecnologia, empresas de t.i, empresas de informática,vinix parceiros, vire um parceiro, comunidade de empresas de tecnologia, comunidade aberta, tecnologia, tecnologia da informação, startups, parcerias de informática, parcerias de tecnologia, empresas abertas, empresas que vendem informática
+    </keywords>
+    <meta property="og:url" content="https://vinixodin.com/parceiros">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="empresas tech">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="./E.ico">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        document.querySelector('author').style.display = 'none';
+        document.querySelector('description').style.display = 'none';
+        document.querySelector('keywords').style.display = 'none';
+        
+        });
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5JZ65STK1C"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5JZ65STK1C');
+    </script>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+nav {
+    background-color: #2d2d2d;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00ff88;
+}
+
+section {
+    min-height: 100vh;
+    padding: 6rem 2rem 2rem;
+}
+
+.company-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 200vh;
+    perspective: 1000px;
+    position: relative;
+    overflow-y: auto;
+    padding: 400px 0;
+}
+
+.company-card {
+    width: 300px;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem;
+    position: absolute;
+}
+
+.company-card:nth-child(1) {
+    transform: translateY(-600px);
+    z-index: 5;
+}
+
+.company-card:nth-child(2) {
+    transform: translateX(-400px) translateY(-200px);
+    z-index: 4;
+}
+
+.company-card:nth-child(3) {
+    transform: translateX(400px) translateY(-200px);
+    z-index: 4;
+}
+
+.company-card:nth-child(4) {
+    transform: translateX(-600px) translateY(200px);
+    z-index: 3;
+}
+
+.company-card:nth-child(5) {
+    transform: translateY(200px);
+    z-index: 3;
+}
+
+.company-card:nth-child(6) {
+    transform: translateX(600px) translateY(200px);
+    z-index: 3;
+}
+
+.company-card:nth-child(7) {
+    transform: translateX(-300px) translateY(600px);
+    z-index: 2;
+}
+
+.company-card:nth-child(8) {
+    transform: translateX(300px) translateY(600px);
+    z-index: 2;
+}
+
+.company-logo {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.company-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.company-info h3 {
+    color: #00ff88;
+    margin-bottom: 0.5rem;
+}
+
+.company-info p {
+    margin-bottom: 1rem;
+    color: #cccccc;
+}
+
+.social-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #00ff88;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.social-link:hover {
+    background-color: #00cc6a;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #2d2d2d;
+    padding: 2rem;
+    border-radius: 10px;
+}
+</style>
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#parceiros">Parceiros</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#como-participar">Como Participar</a></li>
+            <li><a href="#social">Social</a></li>
+        </ul>
+    </nav>
+
+    <section id="parceiros">
+        <div class="company-grid">
+            <div class="company-card">
+                <div class="company-logo">
+                    <img src="vinix.ico" alt="vinix">
+                </div>
+                <div class="company-info">
+                    <h3>Vinix</h3>
+                    <p>Ambiente digital voltado para estudantes de informática e programadores. Também desenvolvemos software.</p>
+                    <a href="https://www.instagram.com/vinix_dev/" class="social-link">Instagram</a>
+                </div>
+            </div>
+
+            <div class="company-card">
+                <div class="company-logo">
+                   <img src="vincis.jpg" alt="bvincis">
+                    </svg>
+                </div>
+                <div class="company-info">
+                    <h3>Black Vincis</h3>
+                    <p>lorem</p>
+                    <a href="https://instagram.com/black_vincis" class="social-link">Instagram</a>
+                </div>
+            </div>
+
+            <div class="company-card">
+                <div class="company-logo">
+                        <img src="goldsys.jpeg" alt="goldsys">
+                </div>
+                <div class="company-info">
+                    <h3>GoldSys</h3>
+                    <p>Lorem.</p>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+
+            <div class="company-card">
+                <div class="company-logo">
+                    <svg viewBox="0 0 200 200" fill="#00ff88">
+                        <rect x="20" y="20" width="160" height="160"/>
+                        <circle cx="100" cy="100" r="50" fill="#2d2d2d"/>
+                    </svg>
+                </div>
+                <div class="company-info">
+                    <h3>Empresa 4</h3>
+                    <p>Pioneira em inteligência artificial e machine learning.</p>
+                    <a href="https://linkedin.com/company/empresa4" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="company-card">
+                <div class="company-logo">
+                    <svg viewBox="0 0 200 200" fill="#00ff88">
+                        <polygon points="100,20 180,180 20,180"/>
+                        <rect x="70" y="70" width="60" height="60" fill="#2d2d2d"/>
+                    </svg>
+                </div>
+                <div class="company-info">
+                    <h3>Empresa 5</h3>
+                    <p>Especialista em cibersegurança e proteção de dados.</p>
+                    <a href="https://linkedin.com/company/empresa5" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="company-card">
+                <div class="company-logo">
+                    <svg viewBox="0 0 200 200" fill="#00ff88">
+                        <circle cx="100" cy="100" r="90"/>
+                        <rect x="60" y="60" width="80" height="80" fill="#2d2d2d"/>
+                    </svg>
+                </div>
+                <div class="company-info">
+                    <h3>Empresa 6</h3>
+                    <p>Referência em cloud computing e infraestrutura.</p>
+                    <a href="https://linkedin.com/company/empresa6" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="company-card">
+                <div class="company-logo">
+                    <svg viewBox="0 0 200 200" fill="#00ff88">
+                        <polygon points="20,100 100,20 180,100 100,180"/>
+                        <circle cx="100" cy="100" r="40" fill="#2d2d2d"/>
+                    </svg>
+                </div>
+                <div class="company-info">
+                    <h3>Empresa 7</h3>
+                    <p>Inovação em realidade virtual e aumentada.</p>
+                    <a href="https://linkedin.com/company/empresa7" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="company-card">
+                <div class="company-logo">
+                    <svg viewBox="0 0 200 200" fill="#00ff88">
+                        <rect x="30" y="30" width="140" height="140"/>
+                        <polygon points="70,70 130,70 100,130" fill="#2d2d2d"/>
+                    </svg>
+                </div>
+                <div class="company-info">
+                    <h3>Empresa 8</h3>
+                    <p>Desenvolvimento de jogos e entretenimento digital.</p>
+                    <a href="https://linkedin.com/company/empresa8" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </section>
+
+    <section id="como-participar">
+        <div class="container">
+            <h2>Como Participar</h2>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </section>
+
+    <section id="social">
+        <div class="container">
+            <h2>Redes Sociais</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+    </section>
+
+</body></html>
